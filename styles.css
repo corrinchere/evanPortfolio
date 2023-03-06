@@ -183,6 +183,10 @@ footer {
         z-index: 5;
     }
 
+    .image-icons {
+        width: 30px;
+    }
+
     .skills-header-content {
         width: 85%;
     }
@@ -200,12 +204,23 @@ footer {
         width: 350px;
         height: 350px;
     }
+
+    #about-div {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+    }
     
 }
    
 @media only screen and (max-width: 300px) {
     body {
         /* background-color: #c0443b; */
+    }
+
+    .image-icons {
+        width: 20px;
     }
 
     .skills-header-content {
@@ -222,8 +237,15 @@ footer {
 
     .project-square {
         margin: 50px auto;
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
+    }
+
+    #about-div {
+        width: 85%;
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
     }
     
 }
